@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  margin-left: 4rem;
 }
 
 .App-logo {
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.app {
+  transition: background-color 0.5s;
+  padding: 20px;
+}
+
+.white-theme {
+  background-color: white;
+  color: black; /* Optionally change text color */
+  height: 100vh;
+}
+
+.black-theme {
+  background-color: black;
+  color: white; /* Optionally change text color */
+  height: 100vh;
 }
